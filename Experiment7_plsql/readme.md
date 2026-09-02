@@ -37,6 +37,23 @@ END;
 **Expected Output:**  
 Greater number is: 80
 
+## SQL QUERY
+```
+DECLARE
+    num1 NUMBER := 50;
+    num2 NUMBER := 80;
+BEGIN
+    IF num1 > num2 THEN
+        DBMS_OUTPUT.PUT_LINE('Greater number is: ' || num1);
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('Greater number is: ' || num2);
+    END IF;
+END;
+```
+
+###output
+<img width="1181" height="511" alt="image" src="https://github.com/user-attachments/assets/8f7242f1-62f1-4736-91a9-baef3d9a6bb9" />
+
 ---
 
 ## 2. Write a PL/SQL program to Calculate Sum of First N Natural Numbers
