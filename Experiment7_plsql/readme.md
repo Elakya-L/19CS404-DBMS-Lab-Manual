@@ -51,7 +51,7 @@ BEGIN
 END;
 ```
 
-##output
+## output
 <img width="1181" height="511" alt="image" src="https://github.com/user-attachments/assets/8f7242f1-62f1-4736-91a9-baef3d9a6bb9" />
 
 ---
